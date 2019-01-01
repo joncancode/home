@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Blog from './components/Blog';
 import Parallax from 'react-springy-parallax';
-import blueback from './images/blueback.png';
+//import blueback from './images/blueback.png';
 
 import Button from './components/Button';
 
