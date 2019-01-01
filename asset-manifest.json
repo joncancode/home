@@ -1,17 +1,16 @@
 {
   "main.css": "/home/static/css/main.7dfcc21c.chunk.css",
-  "main.js": "/home/static/js/main.73b0007e.chunk.js",
-  "main.js.map": "/home/static/js/main.73b0007e.chunk.js.map",
-  "static/js/1.9cdedb92.chunk.js": "/home/static/js/1.9cdedb92.chunk.js",
-  "static/js/1.9cdedb92.chunk.js.map": "/home/static/js/1.9cdedb92.chunk.js.map",
+  "main.js": "/home/static/js/main.7f2f89df.chunk.js",
+  "main.js.map": "/home/static/js/main.7f2f89df.chunk.js.map",
+  "static/js/1.d75a36e4.chunk.js": "/home/static/js/1.d75a36e4.chunk.js",
+  "static/js/1.d75a36e4.chunk.js.map": "/home/static/js/1.d75a36e4.chunk.js.map",
   "runtime~main.js": "/home/static/js/runtime~main.e258ea17.js",
   "runtime~main.js.map": "/home/static/js/runtime~main.e258ea17.js.map",
+  "static/css/main.7dfcc21c.chunk.css.map": "/home/static/css/main.7dfcc21c.chunk.css.map",
   "static/media/medium.png": "/home/static/media/medium.5cdeb7f7.png",
   "static/media/github.png": "/home/static/media/github.7e719a56.png",
-  "static/media/blueback.png": "/home/static/media/blueback.3a132591.png",
   "static/media/instagram.png": "/home/static/media/instagram.d81aa959.png",
-  "static/css/main.7dfcc21c.chunk.css.map": "/home/static/css/main.7dfcc21c.chunk.css.map",
   "index.html": "/home/index.html",
-  "precache-manifest.af15d21959aa07c3b4c665856eebb4db.js": "/home/precache-manifest.af15d21959aa07c3b4c665856eebb4db.js",
+  "precache-manifest.9475db417ab32eeffe0cfebb8045b62f.js": "/home/precache-manifest.9475db417ab32eeffe0cfebb8045b62f.js",
   "service-worker.js": "/home/service-worker.js"
 }
