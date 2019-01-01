@@ -38,14 +38,14 @@ export class Projects extends Component {
           </h4>
           <div style={{ paddingBottom: '5px' }}>
             <button style={{ border: '2px solid #6abaef', margin: '3px' }}>
-              <a target="_new" href="https://github.com/joncancode/d3-pie">
+              <a target="_new" href="https://github.com/joncancode/nba_milestones">
                 Github
               </a>
             </button>
             <button style={{ border: '2px solid #6abaef', margin: '3px' }}>
               <a
                 target="_new"
-                href="https://pedantic-spence-fb0d84.netlify.com/"
+                href="https://joncancode.github.io/nba_milestones/"
               >
                 Demo
               </a>
