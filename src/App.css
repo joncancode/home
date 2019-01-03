@@ -30,3 +30,7 @@
     transform: rotate(360deg);
   }
 }
+
+.link:hover {
+  background-color: #6abaef;
+}

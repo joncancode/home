@@ -22,11 +22,11 @@ class App extends Component {
         fontFamily: 'Menlo-Regular, Menlo, monospace',
         fontSize: 14,
         lineHeight: '10px',
-        height: '100%',
+        //height: '100%',
         color: '#6abaef',
         display: 'flex',
         //alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'center'
       },
       buttonContainer: {
         width: '100%',
@@ -74,7 +74,7 @@ class App extends Component {
             <button
               className="button"
               style={styles.button}
-              onClick={() => this.refs.parallax.scrollTo(3)}
+              onClick={() => this.refs.parallax.scrollTo(4)}
             >
               blog
             </button>
@@ -84,41 +84,34 @@ class App extends Component {
           <Parallax.Layer
             offset={0}
             speed={1}
-            style={{ width: '100%', 
-            //backgroundImage: `url(${blueback})`,
-            backgroundRepeat: 'cover',
-            backgroundSize: 'contain'
-          }}
+            style={{
+              width: '100%',
+              //backgroundImage: `url(${blueback})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'stretch'
+            }}
           />
           <Parallax.Layer
             offset={1}
             speed={1}
-            style={{ 
+            style={{
               //backgroundImage: `url(${blueback})`,
-            backgroundRepeat: 'cover',
-            backgroundSize: 'contain'
-          }}
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'stretch'
+            }}
           />
+
           <Parallax.Layer
-            offset={2}
+            offset={3}
             speed={2}
             style={{
-              backgroundRepeat: 'cover',
-              backgroundSize: 'contain'
+              //backgroundImage: `url(${blueback})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'stretch'
             }}
-          >
-            <Parallax.Layer
-              offset={3}
-              speed={2}
-              style={{
-                //backgroundImage: `url(${blueback})`,
-                backgroundRepeat: 'cover',
-                backgroundSize: 'contain'
-              }}
-            >
-            </Parallax.Layer>
-          </Parallax.Layer>
-          <Parallax.Layer offset={3} speed={-0.1} style={styles.main} />
+          />
+
+          {/* <Parallax.Layer offset={3} speed={-0.1} style={styles.main} /> */}
           <Parallax.Layer offset={0} speed={2} style={styles.main}>
             <Home />
           </Parallax.Layer>
@@ -127,15 +120,13 @@ class App extends Component {
             <Projects />
           </Parallax.Layer>
 
-          <Parallax.Layer offset={2} speed={-0.2} style={styles.main}>
-
-          </Parallax.Layer>
+          <Parallax.Layer offset={0} speed={-0.2} style={styles.main} />
 
           <Parallax.Layer offset={3} speed={-0.2} style={styles.main}>
             <Blog />
           </Parallax.Layer>
           <Parallax.Layer
-            offset={4}
+            offset={3}
             speed={1.5}
             style={styles.main}
             onClick={() => this.refs.parallax.scrollTo(0)}
