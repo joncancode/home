@@ -6,7 +6,9 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Blog from './components/Blog';
 import Parallax from 'react-springy-parallax';
-//import blueback from './images/blueback.png';
+import about from './images/about.png';
+import projects from './images/projects.png';
+import blog from './images/blog.png';
 
 import Button from './components/Button';
 
@@ -47,7 +49,7 @@ class App extends Component {
         fontFamily: 'Menlo-Regular, Menlo, monospace'
       }
     };
-
+    
     return (
       <div className="App">
         <NavBar />
@@ -86,7 +88,7 @@ class App extends Component {
             speed={1}
             style={{
               width: '100%',
-              //backgroundImage: `url(${blueback})`,
+              backgroundImage: `url(${about})`,
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'stretch'
             }}
@@ -95,7 +97,7 @@ class App extends Component {
             offset={1}
             speed={1}
             style={{
-              //backgroundImage: `url(${blueback})`,
+              backgroundImage: `url(${projects})`,
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'stretch'
             }}
@@ -105,7 +107,7 @@ class App extends Component {
             offset={3}
             speed={2}
             style={{
-              //backgroundImage: `url(${blueback})`,
+              backgroundImage: `url(${blog})`,
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'stretch'
             }}

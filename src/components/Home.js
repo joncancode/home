@@ -14,7 +14,7 @@ export class Home extends Component {
       container: {
         textAlign: 'left',
         width: '75%',
-        backgroundColor: 'rgba(0,0,100,0.9)',
+        backgroundColor: 'rgba(0,0,51,0.9)',
         margin: 'auto',
         padding: '20px',
         borderRadius: '5%',

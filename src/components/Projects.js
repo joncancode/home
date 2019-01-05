@@ -14,7 +14,7 @@ export class Projects extends Component {
       container: {
         textAlign: 'left',
         width: '75%',
-        backgroundColor: 'rgba(0,0,100,0.9)',
+        backgroundColor: 'rgba(0,0,51,0.9)',
         margin: 'auto',
         padding: '20px',
         borderRadius: '5%',
@@ -93,6 +93,67 @@ export class Projects extends Component {
                 Demo it yourself
               </a>
             </h4>
+
+            <h4 style={{ marginLeft: '20px' }}>
+              When Again?
+              <a
+                className="link"
+                style={styles.link}
+                target="_new"
+                href="https://github.com/joncancode/remind-me/"
+              >
+                Github
+              </a>
+              <a
+                className="link"
+                style={styles.link}
+                target="_new"
+                href="https://when-did-that-happen.herokuapp.com"
+              >
+                Demo
+              </a>
+            </h4>
+
+            <h4 style={{ marginLeft: '20px' }}>
+              Note Hero
+              <a
+                className="link"
+                style={styles.link}
+                target="_new"
+                href="https://github.com/joncancode/flashcards/"
+              >
+                Github
+              </a>
+              <a
+                className="link"
+                style={styles.link}
+                target="_new"
+                href="https://notehero.herokuapp.com"
+              >
+                Demo 
+              </a>
+            </h4>
+            <h4 style={{ marginLeft: '20px' }}>
+              My Rex
+              <a
+                className="link"
+                style={styles.link}
+                target="_new"
+                href="https://github.com/joncancode/my-rex/"
+              >
+                Github
+              </a>
+              <a
+                className="link"
+                style={styles.link}
+                target="_new"
+                href="https://myrex.herokuapp.com/"
+              >
+                Demo
+              </a>
+            </h4>
+
+
           </div>
         </div>
       </div>
