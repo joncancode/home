@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import medium from '../images/medium.png';
-import facebook from '../images/facebook.png';
-import instagram from '../images/instagram.png';
-import linkedin from '../images/linkedin.png';
-import github from '../images/github.png';
+import behance from '../images/black_behance.png';
+import facebook from '../images/black_facebook.png';
+import instagram from '../images/black_instagram.png';
+import linkedin from '../images/black_linkedin.png';
+import github from '../images/black_github.png';
 
 export class NavBar extends Component {
   render() {
@@ -82,12 +82,12 @@ export class NavBar extends Component {
               width="30"
             />
           </a>
-          <a target="_new" href="//medium.com/@jc.haines19/">
+          <a target="_new" href="//behance.net/jonhaines">
             <img
               className="socialLinks"
               style={styles.socialLinks}
-              src={medium}
-              alt="logo-medium"
+              src={behance}
+              alt="logo-behance"
               height="30"
               width="30"
             />

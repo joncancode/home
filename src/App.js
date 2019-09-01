@@ -82,6 +82,16 @@ class App extends Component {
             </button>
           </Button>
         </div>
+
+        {/* <Home />
+
+
+            <Projects />
+
+
+
+            <Blog /> */}
+
         <Parallax horizontal ref="parallax" pages={4}>
           <Parallax.Layer
             offset={0}
@@ -97,7 +107,7 @@ class App extends Component {
             offset={1}
             speed={1}
             style={{
-              backgroundImage: `url(${projects})`,
+             backgroundImage: `url(${projects})`,
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'stretch'
             }}
@@ -113,8 +123,8 @@ class App extends Component {
             }}
           />
 
-          {/* <Parallax.Layer offset={3} speed={-0.1} style={styles.main} /> */}
-          <Parallax.Layer offset={0} speed={2} style={styles.main}>
+  
+          <Parallax.Layer offset={0} speed={1} style={styles.main}>
             <Home />
           </Parallax.Layer>
 
@@ -122,17 +132,12 @@ class App extends Component {
             <Projects />
           </Parallax.Layer>
 
-          <Parallax.Layer offset={0} speed={-0.2} style={styles.main} />
+          <Parallax.Layer offset={2} speed={-0.2} style={styles.main} />
 
           <Parallax.Layer offset={3} speed={-0.2} style={styles.main}>
             <Blog />
           </Parallax.Layer>
-          <Parallax.Layer
-            offset={3}
-            speed={1.5}
-            style={styles.main}
-            onClick={() => this.refs.parallax.scrollTo(0)}
-          />
+
         </Parallax>
       </div>
     );
