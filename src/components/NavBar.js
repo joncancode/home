@@ -48,8 +48,8 @@ export class NavBar extends Component {
               style={styles.socialLinks}
               src={facebook}
               alt="logo-facebook"
-              height="30"
-              width="30"
+              height="40"
+              width="40"
             />
           </a>
           <a target="_new" href="//github.com/joncancode">
@@ -58,8 +58,8 @@ export class NavBar extends Component {
               style={styles.socialLinks}
               src={github}
               alt="logo-github"
-              height="30"
-              width="30"
+              height="40"
+              width="40"
             />
           </a>
           <a target="_new" href="//instagram.com/_jonstagram_/">
@@ -68,8 +68,8 @@ export class NavBar extends Component {
               style={styles.socialLinks}
               src={instagram}
               alt="logo-instagram"
-              height="30"
-              width="30"
+              height="40"
+              width="40"
             />
           </a>
           <a target="_new" href="//linkedin.com/in/jonathanhaines1/">
@@ -78,8 +78,8 @@ export class NavBar extends Component {
               style={styles.socialLinks}
               src={linkedin}
               alt="logo-linkedin"
-              height="30"
-              width="30"
+              height="40"
+              width="40"
             />
           </a>
           <a target="_new" href="//behance.net/jonhaines">
@@ -88,8 +88,8 @@ export class NavBar extends Component {
               style={styles.socialLinks}
               src={behance}
               alt="logo-behance"
-              height="30"
-              width="30"
+              height="40"
+              width="40"
             />
           </a>
         </span>
