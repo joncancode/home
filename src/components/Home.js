@@ -34,7 +34,7 @@ export class Home extends Component {
           <h2 className="page-title">Hi,</h2>
           <p>
             I'm
-            <strong> Jonathan Haines</strong>, a developer from
+            <strong> Jonathan Haines</strong>, a developer and designer from
             <strong> Brooklyn</strong>,<strong> New York</strong>.
           </p>
           <a
