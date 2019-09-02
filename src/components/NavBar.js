@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import behance from '../images/black_behance.png';
-import facebook from '../images/black_facebook.png';
-import instagram from '../images/black_instagram.png';
-import linkedin from '../images/black_linkedin.png';
-import github from '../images/black_github.png';
+import behance from '../images/nav_behance.png';
+import facebook from '../images/nav_facebook.png';
+import instagram from '../images/nav_instagram.png';
+import linkedin from '../images/nav_linkedin.png';
+import github from '../images/nav_github.png';
 
 export class NavBar extends Component {
   render() {
     const styles = {
       main: {
-        fontFamily: 'Menlo-Regular, Menlo, monospace',
         lineHeight: '25px',
         position: 'relative',
         display: 'flex',
@@ -23,7 +22,7 @@ export class NavBar extends Component {
         textShadow: '2.5px 2.5px 0 #6abaef',
         fontWeight: 'bold',
         color: '#13284a',
-        fontFamily: 'American Typewriter, serif',
+        fontFamily: '"Lucida Console", Monaco, monospace',
         fontSize: '32px',
       },
       span: {
