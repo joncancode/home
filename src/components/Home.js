@@ -34,7 +34,7 @@ export class Home extends Component {
           <h2 className="page-title">Hi,</h2>
           <p>
             I'm
-            <strong> Jonathan Haines</strong>, a developer and designer from
+            <strong> Jon</strong>, a developer and designer from
             <strong> Brooklyn</strong>,<strong> New York</strong>.
           </p>
           <a
@@ -47,6 +47,17 @@ export class Home extends Component {
             I code
           </a>
           .{' '}
+
+          <a
+            style={styles.link}
+            className="link"
+            target="_new"
+            href="https://behance.net/jonhaines/"
+          >
+
+            I design
+          </a>
+          .{' '}
           <a
             style={styles.link}
             className="link"
@@ -56,16 +67,7 @@ export class Home extends Component {
 
             I teach
           </a>
-          .{' '}
-          <a
-            style={styles.link}
-            className="link"
-            target="_new"
-            href="https://medium.com/@jc.haines19/"
-          >
 
-            I write
-          </a>
           .{' '}
           <a
             style={styles.link}
@@ -74,7 +76,7 @@ export class Home extends Component {
             href="https://jonathanhaines.smugmug.com/"
           >
 
-            I photograph
+            I snap
           </a>
           .{' '}
           <p>
