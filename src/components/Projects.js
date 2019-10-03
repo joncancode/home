@@ -4,7 +4,7 @@ export class Projects extends Component {
   render() {
     const styles = {
       main: {
-        fontFamily: 'Menlo-Regular, Menlo, monospace',
+        fontFamily: 'Poppins, sans-serif',
         width: '100%',
         height: '100%',
         lineHeight: '30px',
@@ -14,12 +14,12 @@ export class Projects extends Component {
       container: {
         textAlign: 'left',
         width: '75%',
-        backgroundColor: 'rgba(0,0,51,0.9)',
+        //backgroundColor: 'rgba(0,0,51,0.9)',
         margin: 'auto',
         padding: '20px',
         borderRadius: '5%',
         fontSize: '18px',
-        color: 'white',
+        color: 'rgba(0,0,55,0.9)',
         fontWeight: 'bold',
       },
       link: {
@@ -55,25 +55,7 @@ export class Projects extends Component {
                 Demo
               </a>
             </h4>
-            <h4 style={{ marginLeft: '20px' }}>
-              NYKPie
-              <a
-                className="link"
-                style={styles.link}
-                target="_new"
-                href="https://github.com/joncancode/d3-pie"
-              >
-                Github
-              </a>
-              <a
-                className="link"
-                style={styles.link}
-                target="_new"
-                href="https://pedantic-spence-fb0d84.netlify.com"
-              >
-                Demo
-              </a>
-            </h4>
+            
             <h4 style={{ marginLeft: '20px' }}>
               Pokemon Python
               <a

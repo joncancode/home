@@ -9,6 +9,7 @@ import Parallax from 'react-springy-parallax';
 import about from './images/about.png';
 import projects from './images/projects.png';
 import blog from './images/blog.png';
+import clouds from './images/clouds.png';
 
 import Button from './components/Button';
 
@@ -21,7 +22,7 @@ class App extends Component {
   render() {
     const styles = {
       main: {
-        fontFamily: 'Menlo-Regular, Menlo, monospace',
+        fontFamily: 'Be Vietnam, sans-serif',
         fontSize: 14,
         lineHeight: '10px',
         //height: '100%',
@@ -46,7 +47,7 @@ class App extends Component {
         flexShrink: 1,
         color: '#13284a',
         fontWeight: 'bold',
-        fontFamily: 'Menlo-Regular, Menlo, monospace'
+        fontFamily: 'Poppins, sans-serif',
       }
     };
     
@@ -98,7 +99,7 @@ class App extends Component {
             speed={1}
             style={{
               width: '100%',
-              backgroundImage: `url(${about})`,
+              backgroundImage: `url(${clouds})`,
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'stretch'
             }}
@@ -107,7 +108,7 @@ class App extends Component {
             offset={1}
             speed={1}
             style={{
-             backgroundImage: `url(${projects})`,
+             backgroundImage: `url(${clouds})`,
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'stretch'
             }}
@@ -117,7 +118,7 @@ class App extends Component {
             offset={3}
             speed={2}
             style={{
-              backgroundImage: `url(${blog})`,
+              backgroundImage: `url(${clouds})`,
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'stretch'
             }}

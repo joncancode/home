@@ -4,7 +4,7 @@ export class Home extends Component {
   render() {
     const styles = {
       main: {
-        fontFamily: 'Menlo-Regular, Menlo, monospace',
+        fontFamily: 'Poppins, sans-serif',
         width: '100%',
         height: '100%',
         lineHeight: '35px',
@@ -14,12 +14,12 @@ export class Home extends Component {
       container: {
         textAlign: 'left',
         width: '75%',
-        backgroundColor: 'rgba(0,0,51,0.9)',
+        //backgroundColor: 'rgba(0,0,51,0.9)',
         margin: 'auto',
         padding: '20px',
         borderRadius: '5%',
         fontSize: '18px',
-        color: 'white',
+        color: 'rgba(0,0,55,0.9)',
         fontWeight: 'bold',
       },
       link: {

@@ -4,7 +4,7 @@ export class Blog extends Component {
   render() {
     const styles = {
       main: {
-        fontFamily: 'Menlo-Regular, Menlo, monospace',
+        fontFamily: 'Poppins, sans-serif',
         width: '100%',
         height: '100%',
         lineHeight: '30px',
@@ -14,16 +14,16 @@ export class Blog extends Component {
       container: {
         textAlign: 'left',
         width: '75%',
-        backgroundColor: 'rgba(0,0,55,0.9)',
+        //backgroundColor: 'rgba(0,0,55,0.9)',
         margin: 'auto',
         padding: '20px',
         borderRadius: '5%',
         fontSize: '18px',
-        color: 'white',
+        color: 'rgba(0,0,55,0.9)',
         fontWeight: 'bold',
       },
       link: {
-        color: 'white',
+        color: 'orange',
         textDecoration: 'none',
         display: 'block',
         marginLeft: '20px'
