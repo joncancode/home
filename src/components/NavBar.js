@@ -16,6 +16,7 @@ export class NavBar extends Component {
         flex: 'wrap',
         alignItems: 'center',
         justifyContent: 'space-evenly',
+        
         //borderBottom: '4px solid orange',
       },
       textTitle: {
@@ -24,20 +25,24 @@ export class NavBar extends Component {
         color: '#13284a',
         fontFamily: '"Lucida Console", Monaco, monospace',
         fontSize: '32px',
+        
       },
       span: {
-        display: 'flex',
-        outline: 'none',
-        marginRight: '5px'
+        // display: 'flex',
+        // outline: 'none',
+        // marginRight: '5px'
+        paddingTop: '15px'
       },
       socialLinks: {
         flex: 1,
-        padding: '10px'
-      }
+        padding: '5px'
+      },
+  
+
     };
     return (
       <div style={styles.main}>
-        <div style={{ width: '40%' }}>
+        <div >
           <h2 style={styles.textTitle}>Jonathan Haines</h2>
         </div>
         <span style={styles.span}>
