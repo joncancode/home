@@ -18,7 +18,7 @@ export class Home extends Component {
         width: '75%',
         //backgroundColor: 'rgba(0,0,51,0.9)',
         margin: 'auto',
-        padding: '20px',
+        //padding: '20px',
         borderRadius: '5%',
         fontSize: '18px',
         color: 'rgba(0,0,55,0.9)',
