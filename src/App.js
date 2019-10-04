@@ -90,7 +90,7 @@ class App extends Component {
 
             <Blog /> */}
 
-        <Parallax horizontal ref="parallax" pages={3}>
+        <Parallax horizontal ref="parallax" pages={2}>
           <Parallax.Layer
             offset={0}
             speed={1}
