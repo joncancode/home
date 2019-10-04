@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import jonhaines from '../images/jonhaines.jpg';
+import { brotliDecompress } from 'zlib';
 
 export class Home extends Component {
   render() {
@@ -20,24 +22,33 @@ export class Home extends Component {
         borderRadius: '5%',
         fontSize: '18px',
         color: 'rgba(0,0,55,0.9)',
-        fontWeight: 'bold',
       },
       link: {
         color: '#ff7417',
-        textDecoration: 'none'
+        textDecoration: 'none',
+        fontWeight: 'bold'
       }
     };
 
     return (
       <div style={styles.main}>
         <div className="mq" style={styles.container}>
-          <h2 className="page-title">Hi,</h2>
+          <img 
+          style={{ marginTop: '4em', borderRadius: '5%', float: 'right', align: 'right'}}
+          src={jonhaines} alt="jh" height="175px" width="175px"/>
+          <p style={{ fontSize: '48px'}} className="page-title"><strong
+          style={{ color: 'rgba(0,0,55,0.9)'}}> Hi</strong>,</p>
+          
           <p>
             I'm
-            <strong> Jon</strong>, a developer and designer from
+            <strong> Jon</strong>, a <strong>UX / UI Designer</strong> from
             <strong> Brooklyn</strong>,<strong> New York</strong>.
           </p>
-          <a
+
+<p>I've been involved in the tech space for the past several years.</p>
+<p>I've taught at GA and Thinkful.</p>
+
+          {/* <a
             style={styles.link}
             className="link"
             target="_new"
@@ -78,7 +89,7 @@ export class Home extends Component {
 
             I snap
           </a>
-          .{' '}
+          .{' '} */}
           <p>
             {' '}
             If you want to work with me, find me at
@@ -97,7 +108,6 @@ export class Home extends Component {
             </a>
             .
           </p>
-          <div style={{ marginTop: '40px' }} />
         </div>
       </div>
     );
