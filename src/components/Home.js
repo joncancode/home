@@ -46,7 +46,11 @@ export class Home extends Component {
           </p>
 
 <p>I've been involved in the tech space for the past several years.</p>
-<p>I've taught at GA and Thinkful.</p>
+<ul>
+  <li>I teach and mentor with the online program Thinkful, including the creation of a UX/UI lesson</li>
+  <li>I've taught at General Assembly.</li>
+  <li>I was involved with the design and front-end development for an education start-up.</li>
+</ul>
 
           {/* <a
             style={styles.link}
