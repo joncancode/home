@@ -59,7 +59,7 @@ class App extends Component {
             <button
               className="button"
               style={styles.button}
-              onClick={() => this.refs.parallax.scrollTo(0)}
+              onClick={() => this.refs.parallax.scrollTo(1)}
             >
               about
             </button>
@@ -68,12 +68,12 @@ class App extends Component {
             <button
               className="button"
               style={styles.button}
-              onClick={() => this.refs.parallax.scrollTo(1)}
+              onClick={() => this.refs.parallax.scrollTo(3)}
             >
               projects
             </button>
           </Button>
-          <Button kind="primary">
+          {/* <Button kind="primary">
             <button
               className="button"
               style={styles.button}
@@ -81,7 +81,7 @@ class App extends Component {
             >
               blog
             </button>
-          </Button>
+          </Button> */}
         </div>
 
         {/* <Home />

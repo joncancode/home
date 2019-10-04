@@ -42,14 +42,14 @@ export class Home extends Component {
           <p>
             I'm
             <strong> Jon</strong>, a <strong>UX / UI Designer</strong> from
-            <strong> Brooklyn</strong>,<strong> New York</strong>.
+            <strong> Brooklyn</strong>.
           </p>
 
-<p>I've been involved in the tech space for the past several years.</p>
+<p>I've been involved in the tech space in NYC for the past several years.</p>
 <ul>
-  <li>I teach and mentor with the online program Thinkful, including the creation of a UX/UI lesson</li>
-  <li>I've taught at General Assembly.</li>
-  <li>I was involved with the design and front-end development for an education start-up.</li>
+  <li>I teach and mentor with the online program  <strong>Thinkful</strong>, including the creation of a UX/UI lesson</li>
+  <li>I've taught a course in JavaScript at <strong>General Assembly</strong></li>
+  <li>I was involved with the design and front-end development for an education start-up</li>
 </ul>
 
           {/* <a
