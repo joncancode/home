@@ -6,9 +6,6 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Blog from './components/Blog';
 import Parallax from 'react-springy-parallax';
-import about from './images/about.png';
-import projects from './images/projects.png';
-import blog from './images/blog.png';
 import clouds from './images/clouds.png';
 
 import Button from './components/Button';
@@ -59,7 +56,7 @@ class App extends Component {
             <button
               className="button"
               style={styles.button}
-              onClick={() => this.refs.parallax.scrollTo(1)}
+              onClick={() => this.refs.parallax.scrollTo(0)}
             >
               about
             </button>
@@ -68,7 +65,7 @@ class App extends Component {
             <button
               className="button"
               style={styles.button}
-              onClick={() => this.refs.parallax.scrollTo(3)}
+              onClick={() => this.refs.parallax.scrollTo(1)}
             >
               projects
             </button>
@@ -93,7 +90,7 @@ class App extends Component {
 
             <Blog /> */}
 
-        <Parallax horizontal ref="parallax" pages={4}>
+        <Parallax horizontal ref="parallax" pages={3}>
           <Parallax.Layer
             offset={0}
             speed={1}
@@ -135,9 +132,9 @@ class App extends Component {
 
           <Parallax.Layer offset={2} speed={-0.2} style={styles.main} />
 
-          <Parallax.Layer offset={3} speed={-0.2} style={styles.main}>
+          {/* <Parallax.Layer offset={3} speed={-0.2} style={styles.main}>
             <Blog />
-          </Parallax.Layer>
+          </Parallax.Layer> */}
 
         </Parallax>
       </div>

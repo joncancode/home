@@ -34,7 +34,7 @@ export class Home extends Component {
       <div style={styles.main}>
         <div className="mq" style={styles.container}>
           <img 
-          style={{ marginTop: '4em', borderRadius: '5%', float: 'right', align: 'right'}}
+          style={{ borderRadius: '5%', float: 'right', align: 'right'}}
           src={jonhaines} alt="jh" height="175px" width="175px"/>
           <p style={{ fontSize: '48px'}} className="page-title"><strong
           style={{ color: 'rgba(0,0,55,0.9)'}}> Hi</strong>,</p>
@@ -47,7 +47,7 @@ export class Home extends Component {
 
 <p>I've been involved in the tech space in NYC for the past several years.</p>
 <ul>
-  <li>I teach and mentor with the online program  <strong>Thinkful</strong>, including the creation of a UX/UI lesson</li>
+  <li>I teach and mentor with the online program  <strong>Thinkful</strong>, including creating and hosting a UX/UI webinar</li>
   <li>I've taught a course in JavaScript at <strong>General Assembly</strong></li>
   <li>I was involved with the design and front-end development for an education start-up</li>
 </ul>
