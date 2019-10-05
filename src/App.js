@@ -30,7 +30,7 @@ class App extends Component {
       buttonContainer: {
         width: '100%',
         display: 'flex',
-        borderBottom: '3.5px solid orange'
+        borderBottom: '3.5px solid #ff7417'
       },
       button: {
         height: '25px',

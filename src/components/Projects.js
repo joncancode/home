@@ -28,17 +28,11 @@ export class Projects extends Component {
         color: '#ff7417',
         textDecoration: 'none',
         display: 'inline-block',
-        marginLeft: '30px'
+        paddingTop: '15px'
       },
+
       cover_link: {
-        padding: '15px',
-
-
-        // ':hover': {
-        //   border: '2px solid green',
-        //   paddingBottom: '25px'
-          // borderBottom: '3.5px solid orange',
-        //}
+        padding: '35px',
       }
     };
 
@@ -52,17 +46,19 @@ export class Projects extends Component {
 <a href="
 http://rebrand.ly/meetup_case_study
 " target="_new"  style={styles.cover_link}> 
-          <img 
+          <img style={{border: '2px solid #ff7417'}}
           src={cover_meetup} alt="jh" height="220px" width="400px"/>
 </a>
 
 {/* https://joncancode.github.io/bronx_case_study/ */}
 <a href="http://rebrand.ly/bronx_case_study/" target="_new" style={styles.cover_link} >
-          <img 
+          <img style={{border: '2px solid #ff7417'}}
           
           src={cover_bronx} alt="jh" height="220px" width="400px"/>
-          </a>
-
+          </a><br></br>
+         <h3> More at <a style={styles.link} target="_new" href="//behance.net/jonhaines">
+            Behance
+          </a></h3>
 </div>
 
         </div>
