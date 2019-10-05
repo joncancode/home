@@ -23,7 +23,7 @@ export class Blog extends Component {
         fontWeight: 'bold',
       },
       link: {
-        color: 'orange',
+        color: '#6abaef',
         textDecoration: 'none',
         display: 'block',
         marginLeft: '20px'

@@ -36,7 +36,7 @@ export class Home extends Component {
           <img 
           style={{ borderRadius: '5%', float: 'right', align: 'right'}}
           src={jonhaines} alt="jh" height="175px" width="175px"/>
-          <p style={{ fontSize: '48px'}} className="page-title"><strong
+          <p style={{ fontSize: '36px'}} className="page-title"><strong
           style={{ color: 'rgba(0,0,55,0.9)'}}> Hi</strong>,</p>
           
           <p>
@@ -48,7 +48,7 @@ export class Home extends Component {
 <p>I've been involved in the tech space in NYC for the past several years.</p>
 <ul>
   <li>I teach and mentor with the online program  <strong>Thinkful</strong>, including creating and hosting a UX/UI webinar</li>
-  <li>I've taught a course in JavaScript at <strong>General Assembly</strong></li>
+  <li>I've taught JavaScript at <strong>General Assembly</strong></li>
   <li>I was involved with the design and front-end development for an education start-up</li>
 </ul>
 

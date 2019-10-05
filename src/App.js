@@ -40,9 +40,9 @@ class App extends Component {
         flex: 1,
         backgroundColor: 'transparent',
         border: 'none',
-        fontSize: '18px',
+        fontSize: '24px',
         flexShrink: 1,
-        color: '#13284a',
+        color: '#ff7417',
         fontWeight: 'bold',
         fontFamily: 'Poppins, sans-serif',
       }
@@ -90,15 +90,20 @@ class App extends Component {
 
             <Blog /> */}
 
-        <Parallax horizontal ref="parallax" pages={2}>
+        <Parallax 
+        style={{
+          overflowY: 'hidden'
+        }}
+        ref="parallax" pages={2}>
           <Parallax.Layer
             offset={0}
             speed={1}
             style={{
               width: '100%',
+              height: '50%',
               backgroundImage: `url(${clouds})`,
               backgroundRepeat: 'no-repeat',
-              backgroundSize: 'stretch'
+              backgroundSize: 'stretch',
             }}
           />
           <Parallax.Layer
