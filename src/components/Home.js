@@ -8,8 +8,8 @@ export class Home extends Component {
       main: {
         fontFamily: 'Poppins, sans-serif',
         width: '100%',
-        height: '120%',
-        lineHeight: '35px',
+        height: '150%',
+        lineHeight: '30px',
         //backgroundColor: 'rgba(19, 40, 74,0.2)',
       },
       container: {
@@ -93,24 +93,8 @@ export class Home extends Component {
             I snap
           </a>
           .{' '} */}
-          <p>
-            {' '}
-            If you want to work with me, find me at
-            <strong> jc.haines19@gmail.com</strong>.
-          </p>
-          <p>
-            {' '}
-            My resume/CV can be found{' '}
-            <a
-              style={styles.link}
-              className="link"
-              target="_new"
-              href="https://rebrand.ly/jonhaines-resume"
-            >
-              here
-            </a>
-            .
-          </p>
+          
+
         </div>
       </div>
     );

@@ -4,7 +4,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Projects from './components/Projects';
-import Blog from './components/Blog';
+import Contact from './components/Contact';
 import Parallax from 'react-springy-parallax';
 import clouds from './images/clouds.png';
 
@@ -69,15 +69,15 @@ class App extends Component {
               projects
             </button>
           </Button>
-          {/* <Button kind="primary">
+          <Button kind="primary">
             <button
               className="button"
               style={styles.button}
               onClick={() => this.refs.parallax.scrollTo(4)}
             >
-              blog
+              contact
             </button>
-          </Button> */}
+          </Button>
         </div>
 
         {/* <Home />
@@ -93,7 +93,7 @@ class App extends Component {
         style={{
           overflowY: 'hidden'
         }}
-        ref="parallax" pages={2}>
+        ref="parallax" pages={4}>
           <Parallax.Layer
             offset={0}
             speed={1}
@@ -136,9 +136,9 @@ class App extends Component {
 
           <Parallax.Layer offset={2} speed={-0.2} style={styles.main} />
 
-          {/* <Parallax.Layer offset={3} speed={-0.2} style={styles.main}>
-            <Blog />
-          </Parallax.Layer> */}
+          <Parallax.Layer offset={3} speed={-0.2} style={styles.main}>
+            <Contact />
+          </Parallax.Layer>
 
         </Parallax>
       </div>
