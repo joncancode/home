@@ -7,13 +7,13 @@ export class Projects extends Component {
     const styles = {
       main: {
         fontFamily: 'Poppins, sans-serif',
-        width: '85%',
+        width: '100%',
         //backgroundColor: 'rgba(19, 40, 74,0.2)',
         paddingTop: '50px'
       },
       container: {
         // textAlign: 'center',
-        width: '85%',
+        width: '100%',
         //backgroundColor: 'rgba(0,0,51,0.9)',
         margin: 'auto',
         paddingTop: '7px',
@@ -29,6 +29,16 @@ export class Projects extends Component {
         textDecoration: 'none',
         display: 'inline-block',
         marginLeft: '30px'
+      },
+      cover_link: {
+        padding: '15px',
+
+
+        // ':hover': {
+        //   border: '2px solid green',
+        //   paddingBottom: '25px'
+          // borderBottom: '3.5px solid orange',
+        //}
       }
     };
 
@@ -41,17 +51,16 @@ export class Projects extends Component {
   {/* https://uxplanet.org/meetup-conceptual-rebrand-and-case-study-7076f017a0aa */}
 <a href="
 http://rebrand.ly/meetup_case_study
-" target="_new" >
+" target="_new"  style={styles.cover_link}> 
           <img 
-          style={{ paddingBottom: '25px'}}
-          src={cover_meetup} alt="jh" height="200px" width="380px"/>
+          src={cover_meetup} alt="jh" height="220px" width="400px"/>
 </a>
 
 {/* https://joncancode.github.io/bronx_case_study/ */}
-<a href="http://rebrand.ly/bronx_case_study/" target="_new" >
+<a href="http://rebrand.ly/bronx_case_study/" target="_new" style={styles.cover_link} >
           <img 
-          style={{ paddingBottom: '25px' }}
-          src={cover_bronx} alt="jh" height="200px" width="380px"/>
+          
+          src={cover_bronx} alt="jh" height="220px" width="400px"/>
           </a>
 
 </div>

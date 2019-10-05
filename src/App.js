@@ -39,7 +39,7 @@ class App extends Component {
         flex: 1,
         backgroundColor: 'transparent',
         border: 'none',
-        fontSize: '24px',
+        fontSize: '20px',
         flexShrink: 1,
         color: '#ff7417',
         fontWeight: 'bold',
