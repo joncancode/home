@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "0bfe4cdedb6b2b8e3058e1a5d5c6450b",
-    "url": "/home/static/media/nav_instagram.0bfe4cde.png"
+    "revision": "19c06d4793b4f6dde2f16a2dd590b5fa",
+    "url": "/home/static/media/nav_github.19c06d47.png"
   },
   {
-    "revision": "6d46e01e2c2f9cd49148",
-    "url": "/home/static/css/main.15e0fe54.chunk.css"
+    "revision": "54ffa4717bf1cbc03cf2",
+    "url": "/home/static/css/main.2b19f9b9.chunk.css"
   },
   {
-    "revision": "40b7e90664cc1cf6d4f9",
-    "url": "/home/static/js/1.40b7e906.chunk.js"
+    "revision": "7af8a72a7a7f17ce0595",
+    "url": "/home/static/js/1.7af8a72a.chunk.js"
   },
   {
     "revision": "e258ea1747dec9816919",
@@ -24,12 +24,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/nav_facebook.44d006c2.png"
   },
   {
-    "revision": "6d46e01e2c2f9cd49148",
-    "url": "/home/static/js/main.6d46e01e.chunk.js"
-  },
-  {
-    "revision": "19c06d4793b4f6dde2f16a2dd590b5fa",
-    "url": "/home/static/media/nav_github.19c06d47.png"
+    "revision": "54ffa4717bf1cbc03cf2",
+    "url": "/home/static/js/main.54ffa471.chunk.js"
   },
   {
     "revision": "05e4a2d3db7c0eac7e6036c25825585c",
@@ -44,7 +40,11 @@ self.__precacheManifest = [
     "url": "/home/static/media/cover_bronx.7a1afef4.png"
   },
   {
-    "revision": "3ca04e3c59a0cb09063db48e99a83423",
+    "revision": "0bfe4cdedb6b2b8e3058e1a5d5c6450b",
+    "url": "/home/static/media/nav_instagram.0bfe4cde.png"
+  },
+  {
+    "revision": "2f473120c6b11cda2e4cf06715cb0126",
     "url": "/home/index.html"
   }
 ];
