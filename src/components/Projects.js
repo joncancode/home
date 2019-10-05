@@ -16,11 +16,13 @@ export class Projects extends Component {
         width: '85%',
         //backgroundColor: 'rgba(0,0,51,0.9)',
         margin: 'auto',
+        paddingTop: '7px',
         paddingBottom: '50px',
         borderRadius: '5%',
         color: 'rgba(0,0,55,0.9)',
         fontWeight: 'bold',
         display: 'inline-block'
+        
       },
       link: {
         color: '#ff7417',
@@ -35,8 +37,6 @@ export class Projects extends Component {
         <div className="mq" style={styles.container}>
 
 <div style={styles.container}>
-  <br></br>
-
 
   {/* https://uxplanet.org/meetup-conceptual-rebrand-and-case-study-7076f017a0aa */}
 <a href="

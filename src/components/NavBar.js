@@ -86,7 +86,7 @@ export class NavBar extends Component {
               width="40"
             />
           </a>
-          <a target="_new" href="//instagram.com/_jonstagram_/">
+          {/* <a target="_new" href="//instagram.com/_jonstagram_/">
             <img
               className="socialLinks"
               style={styles.socialLinks}
@@ -95,7 +95,7 @@ export class NavBar extends Component {
               height="40"
               width="40"
             />
-          </a>
+          </a> */}
         </span>
       </div>
     );
