@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/home/static/css/main.15e0fe54.chunk.css"
   },
   {
-    "revision": "8a6d97f0e9d69f8fb1cc",
-    "url": "/home/static/js/1.8a6d97f0.chunk.js"
+    "revision": "40b7e90664cc1cf6d4f9",
+    "url": "/home/static/js/1.40b7e906.chunk.js"
   },
   {
     "revision": "e258ea1747dec9816919",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/home/static/media/cover_bronx.87388682.png"
   },
   {
-    "revision": "ef2c38fd0963654e432b3abc672c062d",
+    "revision": "36bbbda682e8360ba6a0612813cdffa8",
     "url": "/home/index.html"
   }
 ];
