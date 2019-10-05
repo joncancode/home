@@ -112,7 +112,7 @@ class App extends Component {
             style={{
              backgroundImage: `url(${clouds})`,
               backgroundRepeat: 'no-repeat',
-              backgroundSize: 'stretch'
+              backgroundSize: 'stretch',
             }}
           />
 

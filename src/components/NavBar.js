@@ -24,7 +24,7 @@ export class NavBar extends Component {
         fontWeight: 'bold',
         color: '#13284a',
         fontFamily: '"Lucida Console", Monaco, monospace',
-        fontSize: '32px',
+        fontSize: '28px',
         
       },
       span: {

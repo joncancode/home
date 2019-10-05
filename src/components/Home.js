@@ -8,10 +8,9 @@ export class Home extends Component {
       main: {
         fontFamily: 'Poppins, sans-serif',
         width: '100%',
-        height: '100%',
+        height: '120%',
         lineHeight: '35px',
         //backgroundColor: 'rgba(19, 40, 74,0.2)',
-        padding: '20px',
       },
       container: {
         textAlign: 'left',

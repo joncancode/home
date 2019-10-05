@@ -1,26 +1,28 @@
 import React, { Component } from 'react';
+import cover_meetup from '../images/cover_meetup.png';
+import cover_bronx from '../images/cover_bronx.png';
 
 export class Projects extends Component {
   render() {
     const styles = {
       main: {
         fontFamily: 'Poppins, sans-serif',
-        width: '100%',
-        height: '100%',
+        width: '85%',
         lineHeight: '30px',
         //backgroundColor: 'rgba(19, 40, 74,0.2)',
-        padding: '20px'
+        paddingTop: '50px'
       },
       container: {
-        textAlign: 'left',
-        width: '75%',
+        // textAlign: 'center',
+        width: '85%',
         //backgroundColor: 'rgba(0,0,51,0.9)',
         margin: 'auto',
-        padding: '20px',
+        paddingBottom: '50px',
         borderRadius: '5%',
         fontSize: '18px',
         color: 'rgba(0,0,55,0.9)',
         fontWeight: 'bold',
+        display: 'inline-block'
       },
       link: {
         color: '#ff7417',
@@ -33,110 +35,23 @@ export class Projects extends Component {
     return (
       <div style={styles.main}>
         <div className="mq" style={styles.container}>
-          <h2 className="page-title">What I've Been Working On...</h2>
-          <div>
-            <h4 style={{ marginLeft: '20px' }}>
-              NBA Milestones (the Lebron Point Tracker)
-              <a
-                className="link"
-                style={styles.link}
-                target="_new"
-                href="https://github.com/joncancode/nba_milestones"
-              >
-                Github
-              </a>
-              
-              <a
-                className="link"
-                style={styles.link}
-                target="_new"
-                href="https://joncancode.github.io/nba_milestones"
-              >
-                Demo
-              </a>
-            </h4>
-            
-            <h4 style={{ marginLeft: '20px' }}>
-              Pokemon Python
-              <a
-                className="link"
-                style={styles.link}
-                target="_new"
-                href="https://github.com/joncancode/console-adventure/"
-              >
-                Github
-              </a>
-              <a
-                className="link"
-                style={styles.link}
-                target="_new"
-                href="https://github.com/joncancode/console-adventure#try-it-yourself"
-              >
-                Demo it yourself
-              </a>
-            </h4>
 
-            <h4 style={{ marginLeft: '20px' }}>
-              When Again?
-              <a
-                className="link"
-                style={styles.link}
-                target="_new"
-                href="https://github.com/joncancode/remind-me/"
-              >
-                Github
-              </a>
-              <a
-                className="link"
-                style={styles.link}
-                target="_new"
-                href="https://when-did-that-happen.herokuapp.com"
-              >
-                Demo
-              </a>
-            </h4>
+<div style={styles.container}>
+  <br></br>
 
-            <h4 style={{ marginLeft: '20px' }}>
-              Note Hero
-              <a
-                className="link"
-                style={styles.link}
-                target="_new"
-                href="https://github.com/joncancode/flashcards/"
-              >
-                Github
-              </a>
-              <a
-                className="link"
-                style={styles.link}
-                target="_new"
-                href="https://notehero.herokuapp.com"
-              >
-                Demo 
-              </a>
-            </h4>
-            <h4 style={{ marginLeft: '20px' }}>
-              My Rex
-              <a
-                className="link"
-                style={styles.link}
-                target="_new"
-                href="https://github.com/joncancode/my-rex/"
-              >
-                Github
-              </a>
-              <a
-                className="link"
-                style={styles.link}
-                target="_new"
-                href="https://myrex.herokuapp.com/"
-              >
-                Demo
-              </a>
-            </h4>
+<a href="https://uxplanet.org/meetup-conceptual-rebrand-and-case-study-7076f017a0aa" target="_new" >
+          <img 
+          style={{ paddingBottom: '35px', textShadow: '5px 10px' }}
+          src={cover_meetup} alt="jh" height="200px" width="380px"/>
+</a>
+<a href="https://joncancode.github.io/bronx_case_study/" target="_new" >
+          <img 
+          style={{ paddingBottom: '35px' }}
+          src={cover_bronx} alt="jh" height="200px" width="380px"/>
+          </a>
 
+</div>
 
-          </div>
         </div>
       </div>
     );
