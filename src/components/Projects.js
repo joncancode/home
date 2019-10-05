@@ -37,12 +37,18 @@ export class Projects extends Component {
 <div style={styles.container}>
   <br></br>
 
-<a href="https://uxplanet.org/meetup-conceptual-rebrand-and-case-study-7076f017a0aa" target="_new" >
+
+  {/* https://uxplanet.org/meetup-conceptual-rebrand-and-case-study-7076f017a0aa */}
+<a href="
+http://rebrand.ly/meetup_case_study
+" target="_new" >
           <img 
           style={{ paddingBottom: '25px'}}
           src={cover_meetup} alt="jh" height="200px" width="380px"/>
 </a>
-<a href="https://joncancode.github.io/bronx_case_study/" target="_new" >
+
+{/* https://joncancode.github.io/bronx_case_study/ */}
+<a href="http://rebrand.ly/bronx_case_study/" target="_new" >
           <img 
           style={{ paddingBottom: '25px' }}
           src={cover_bronx} alt="jh" height="200px" width="380px"/>
