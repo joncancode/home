@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/home/static/media/nav_instagram.0bfe4cde.png"
   },
   {
-    "revision": "4943aa3ad7798515203e",
+    "revision": "6d46e01e2c2f9cd49148",
     "url": "/home/static/css/main.15e0fe54.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/nav_facebook.44d006c2.png"
   },
   {
-    "revision": "4943aa3ad7798515203e",
-    "url": "/home/static/js/main.4943aa3a.chunk.js"
+    "revision": "6d46e01e2c2f9cd49148",
+    "url": "/home/static/js/main.6d46e01e.chunk.js"
   },
   {
     "revision": "19c06d4793b4f6dde2f16a2dd590b5fa",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/home/static/media/cover_bronx.7a1afef4.png"
   },
   {
-    "revision": "b145496484abdc270274236df2df5b33",
+    "revision": "3ca04e3c59a0cb09063db48e99a83423",
     "url": "/home/index.html"
   }
 ];
