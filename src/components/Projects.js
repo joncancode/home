@@ -51,7 +51,7 @@ http://rebrand.ly/meetup_case_study
 </a>
 
 {/* https://joncancode.github.io/bronx_case_study/ */}
-<a href="http://rebrand.ly/bronx_case_study/" target="_new" style={styles.cover_link} >
+<a href="http://rebrand.ly/bronx_case_study/" style={styles.cover_link} >
           <img 
           src={cover_bronx} alt="jh" height="220px" width="400px"/>
           </a><br></br>
