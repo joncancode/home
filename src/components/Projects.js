@@ -46,14 +46,13 @@ export class Projects extends Component {
 <a href="
 http://rebrand.ly/meetup_case_study
 " target="_new"  style={styles.cover_link}> 
-          <img style={{border: '2px solid #ff7417'}}
+          <img 
           src={cover_meetup} alt="jh" height="220px" width="400px"/>
 </a>
 
 {/* https://joncancode.github.io/bronx_case_study/ */}
 <a href="http://rebrand.ly/bronx_case_study/" target="_new" style={styles.cover_link} >
-          <img style={{border: '2px solid #ff7417'}}
-          
+          <img 
           src={cover_bronx} alt="jh" height="220px" width="400px"/>
           </a><br></br>
          <h3> More at <a style={styles.link} target="_new" href="//behance.net/jonhaines">
