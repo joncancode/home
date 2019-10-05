@@ -1,7 +1,7 @@
 {
   "main.css": "/home/static/css/main.15e0fe54.chunk.css",
-  "main.js": "/home/static/js/main.9d6fa337.chunk.js",
-  "main.js.map": "/home/static/js/main.9d6fa337.chunk.js.map",
+  "main.js": "/home/static/js/main.4943aa3a.chunk.js",
+  "main.js.map": "/home/static/js/main.4943aa3a.chunk.js.map",
   "static/js/1.40b7e906.chunk.js": "/home/static/js/1.40b7e906.chunk.js",
   "static/js/1.40b7e906.chunk.js.map": "/home/static/js/1.40b7e906.chunk.js.map",
   "runtime~main.js": "/home/static/js/runtime~main.e258ea17.js",
@@ -11,10 +11,10 @@
   "static/media/nav_github.png": "/home/static/media/nav_github.19c06d47.png",
   "static/media/jonhaines.jpg": "/home/static/media/jonhaines.05e4a2d3.jpg",
   "static/media/cover_meetup.png": "/home/static/media/cover_meetup.8898a88a.png",
-  "static/media/cover_bronx.png": "/home/static/media/cover_bronx.87388682.png",
+  "static/media/cover_bronx.png": "/home/static/media/cover_bronx.7a1afef4.png",
   "static/media/nav_facebook.png": "/home/static/media/nav_facebook.44d006c2.png",
   "static/css/main.15e0fe54.chunk.css.map": "/home/static/css/main.15e0fe54.chunk.css.map",
   "index.html": "/home/index.html",
-  "precache-manifest.61f53fb41cd0519c8ea3dc48e9a6a362.js": "/home/precache-manifest.61f53fb41cd0519c8ea3dc48e9a6a362.js",
+  "precache-manifest.22b2de6c35edeeb807c96b03958418e5.js": "/home/precache-manifest.22b2de6c35edeeb807c96b03958418e5.js",
   "service-worker.js": "/home/service-worker.js"
 }
