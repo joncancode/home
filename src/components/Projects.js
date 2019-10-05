@@ -8,7 +8,6 @@ export class Projects extends Component {
       main: {
         fontFamily: 'Poppins, sans-serif',
         width: '85%',
-        lineHeight: '30px',
         //backgroundColor: 'rgba(19, 40, 74,0.2)',
         paddingTop: '50px'
       },
@@ -19,7 +18,6 @@ export class Projects extends Component {
         margin: 'auto',
         paddingBottom: '50px',
         borderRadius: '5%',
-        fontSize: '18px',
         color: 'rgba(0,0,55,0.9)',
         fontWeight: 'bold',
         display: 'inline-block'
@@ -41,12 +39,12 @@ export class Projects extends Component {
 
 <a href="https://uxplanet.org/meetup-conceptual-rebrand-and-case-study-7076f017a0aa" target="_new" >
           <img 
-          style={{ paddingBottom: '35px', textShadow: '5px 10px' }}
+          style={{ paddingBottom: '25px'}}
           src={cover_meetup} alt="jh" height="200px" width="380px"/>
 </a>
 <a href="https://joncancode.github.io/bronx_case_study/" target="_new" >
           <img 
-          style={{ paddingBottom: '35px' }}
+          style={{ paddingBottom: '25px' }}
           src={cover_bronx} alt="jh" height="200px" width="380px"/>
           </a>
 

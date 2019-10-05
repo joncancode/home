@@ -21,7 +21,6 @@ class App extends Component {
       main: {
         fontFamily: 'Be Vietnam, sans-serif',
         fontSize: 14,
-        lineHeight: '10px',
         //height: '100%',
         color: '#6abaef',
         display: 'flex',
