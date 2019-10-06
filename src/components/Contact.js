@@ -37,6 +37,20 @@ export class Contact extends Component {
             If you want to work with me, find me at
             <strong> jc.haines19@gmail.com</strong>.
           </p>
+
+          <p>
+            {' '}
+            Or feel free to schedule some time for
+            <strong>            <a
+              style={styles.link}
+              className="link"
+              target="_new"
+              href="https://calendly.com/jonhaines/15min"
+            >
+              a quick phonecall
+            </a></strong>.
+          </p>
+
           <p>
             {' '}
             My resume/CV can be found{' '}
