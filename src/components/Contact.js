@@ -12,7 +12,7 @@ export class Contact extends Component {
         paddingTop: '100px'
       },
       container: {
-        textAlign: 'left',
+        textAlign: 'center',
         width: '75%',
         //backgroundColor: 'rgba(0,0,51,0.9)',
         margin: 'auto',
