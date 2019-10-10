@@ -46,9 +46,9 @@ export class Home extends Component {
 
 <p>I've been involved in the tech space in NYC for the past several years.</p>
 <ul>
-  <li>I teach and mentor with the online program  <strong>Thinkful</strong>, including creating and hosting a UX/UI webinar</li>
-  <li>I've taught JavaScript at <strong>General Assembly</strong></li>
-  <li>I was involved with leading the design and front-end development for an early stage education start-up </li>
+  <li>I teach and mentor with the online program  <strong>Thinkful</strong>, including creating and hosting a UX/UI webinar.</li>
+  <li>I've taught JavaScript at <strong>General Assembly</strong>.</li>
+  <li>I was involved with leading the design and front-end development for an early stage education start-up.</li>
 </ul>
 
           {/* <a
