@@ -8,7 +8,7 @@ export class Home extends Component {
       main: {
         fontFamily: 'Poppins, sans-serif',
         width: '100%',
-        height: '150%',
+        height: '50%',
         lineHeight: '30px',
         //backgroundColor: 'rgba(19, 40, 74,0.2)',
       },
