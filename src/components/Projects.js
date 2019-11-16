@@ -10,7 +10,7 @@ export class Projects extends Component {
         fontFamily: 'Poppins, sans-serif',
         width: '100%',
         //backgroundColor: 'rgba(19, 40, 74,0.2)',
-        paddingTop: '28px'
+        paddingTop: '62px'
       },
       container: {
         // textAlign: 'center',
@@ -46,19 +46,19 @@ export class Projects extends Component {
 https://rebrand.ly/enact_case_study
 "  style={styles.cover_link}> 
           <img 
-          src={cover_enact} alt="jh" height="125px" width="600px"/>
+          src={cover_enact} alt="jh" height="125px" width="590px"/>
 </a>
 <a href="
 http://rebrand.ly/meetup_case_study
 " target="_new"  style={styles.cover_link}> 
           <img 
-          src={cover_meetup} alt="jh" height="125px" width="600px"/>
+          src={cover_meetup} alt="jh" height="125px" width="590px"/>
 </a>
 
 {/* https://joncancode.github.io/bronx_case_study/ */}
 <a href="http://rebrand.ly/bronx_case_study/" style={styles.cover_link} >
           <img 
-          src={cover_bronx} alt="jh" height="125px" width="600px"/>
+          src={cover_bronx} alt="jh" height="125px" width="590px"/>
           </a>
           <h3> More at <a style={styles.link} target="_new" href="//behance.net/jonhaines">
             Behance
